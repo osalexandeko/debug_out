@@ -1,0 +1,37 @@
+typedef enum {
+	ALGO_CTRL_ERROR_CODE_WRONG_BYTE_SUM = 0,
+	ALGO_CTRL_ERROR_CODE_CORRECT_BYTE_SUM = 1,
+	ALGO_CTRL_ERROR_CODE_MISSED_CYCLES = 2,
+	ALGO_CTRL_ERROR_CODE_INVALID_CYCLES = 3,
+	ALGO_CTRL_ERROR_CODE_SUCCESS_CYCLES = 4,
+	ALGO_CTRL_ERROR_CODE_INVALID_DPP_CMD = 5,
+	ALGO_CTRL_ERROR_CODE_NA_BFFR = 6,
+	ALGO_CTRL_ERROR_CODE_UNK_ALGO = 7,
+	ALGO_CTRL_ERROR_CODE_INVALID_SZ = 8,
+	ALGO_CTRL_MAX_ERROR_CODE
+} DPP_Error_Code_Enum;
+
+
+
+ "ERROR_CODE_WRONG_BYTE_SUM    ",
+ "ERROR_CODE_CORRECT_BYTE_SUM  ",
+ "ERROR_CODE_MISSED_CYCLES     ",
+ "ERROR_CODE_INVALID_CYCLES    ",
+ "ERROR_CODE_SUCCESS_CYCLES    ",
+ "ERROR_CODE_INVALID_DPP_CMD   ",
+ "ERROR_CODE_NA_BFFR           ",
+ "ERROR_CODE_UNK_ALGO          ",
+ "ERROR_CODE_INVALID_SZ        ",
+  
+  
+ "MAJOR NUMBER                 ",
+ "MINOR NUMBER                 ",
+ "YEAR                         ",
+ "MONTH                        ",
+ "DAY                          ",
+ "COMMAND ID                   ",
+ "SPARE0                       ",
+ "SPARE1                       ",
+ 
+  
+  
